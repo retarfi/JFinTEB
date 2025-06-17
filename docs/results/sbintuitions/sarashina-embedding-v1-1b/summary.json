@@ -1,0 +1,41 @@
+{
+    "Classification": {
+        "chabsa_classification": {
+            "macro_f1": 0.960286393686796
+        },
+        "economy_watchers_survey_domain": {
+            "macro_f1": 0.7810687719984251
+        },
+        "economy_watchers_survey_horizon": {
+            "macro_f1": 0.827999827999828
+        },
+        "economy_watchers_survey_sentiment": {
+            "macro_f1": 0.559446400780989
+        },
+        "wikinews_classification": {
+            "macro_f1": 0.9456663240835903
+        },
+        "industry17": {
+            "macro_f1": 0.8293223948969655
+        }
+    },
+    "Clustering": {
+        "economy_watchers_survey_reason": {
+            "v_measure_score": 0.26230810159514417
+        }
+    },
+    "Retrieval": {
+        "jafin": {
+            "ndcg@10": 0.8630475628449122
+        },
+        "pfmt_bench_fin_ja": {
+            "ndcg@10": 0.9549175057628079
+        },
+        "wikinews_retrieval": {
+            "ndcg@10": 0.9329153613939073
+        },
+        "wikipedia_retrieval": {
+            "ndcg@10": 0.987465934438776
+        }
+    }
+}
