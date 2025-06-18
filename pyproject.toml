@@ -10,7 +10,7 @@ description = "The evaluation scripts for JFinTEB (Japanese Financial Text Embed
 name = "JFinTEB"
 packages = [{from = "src", include = "jfinteb"}, {from = "src", include = "data"}]
 readme = "README.md"
-version = "0.1.0"
+version = "1.0.0"
 
 [tool.poetry.dependencies]
 python = ">=3.10,<4.0"
