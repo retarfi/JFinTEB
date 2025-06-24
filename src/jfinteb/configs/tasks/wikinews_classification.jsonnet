@@ -5,19 +5,19 @@
       train_dataset: {
         class_path: 'JsonlClassificationDataset',
         init_args: {
-          filename: 'data/wikinews/clustering/validation.jsonl',
+          filename: 'data/wikinews/classification/train.jsonl',
         },
       },
       val_dataset: {
         class_path: 'JsonlClassificationDataset',
         init_args: {
-          filename: 'data/wikinews/clustering/validation.jsonl',
+          filename: 'data/wikinews/classification/validation.jsonl',
         },
       },
       test_dataset: {
         class_path: 'JsonlClassificationDataset',
         init_args: {
-          filename: 'data/wikinews/clustering/test.jsonl',
+          filename: 'data/wikinews/classification/test.jsonl',
         },
       },
     },
