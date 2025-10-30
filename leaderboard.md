@@ -8,17 +8,17 @@ The summary shows the average scores within each task. The average score is the 
 | Model                             | Avg.      | Classification   | Retrieval   | Clustering   |
 |:----------------------------------|:----------|:-----------------|:------------|:-------------|
 | sarashina-embedding-v1-1b         | **80.95** | **81.73**        | 93.46       | 26.23        |
+| ruri-v3-310m                      | 79.39     | 79.36            | 92.70       | 26.42        |
+| multilingual-e5-large             | 79.28     | 79.67            | 91.73       | 27.18        |
 | ruri-v3-130m                      | 79.07     | 79.33            | 92.25       | 24.80        |
 | jina-embeddings-v3                | 79.02     | 77.42            | **94.03**   | 28.59        |
+| text-embedding-3-large            | 78.98     | 78.08            | 92.66       | **29.63**    |
 | GLuCoSE-base-ja-v2                | 78.55     | 78.97            | 91.15       | 25.69        |
+| ruri-v3-30m                       | 77.98     | 78.54            | 90.45       | 24.76        |
 | ruri-v3-70m                       | 77.68     | 78.33            | 90.56       | 22.29        |
-| ruri-v3-310m                      | 77.20     | 75.60            | 92.70       | 26.42        |
 | multilingual-e5-base              | 76.18     | 78.02            | 86.70       | 23.13        |
-| multilingual-e5-large             | 72.07     | 67.85            | 91.73       | 27.18        |
-| text-embedding-3-large            | 71.95     | 66.88            | 92.66       | **29.63**    |
-| ruri-v3-30m                       | 70.78     | 66.70            | 90.45       | 24.76        |
-| multilingual-e5-small             | 68.53     | 65.33            | 85.43       | 26.60        |
-| text-embedding-3-small            | 67.32     | 62.45            | 87.04       | 27.39        |
+| multilingual-e5-small             | 75.18     | 76.45            | 85.43       | 26.60        |
+| text-embedding-3-small            | 74.32     | 73.67            | 87.04       | 27.39        |
 | bert-base-japanese-fin-additional | 59.34     | 79.09            | 39.93       | 18.49        |
 | bert-base-japanese                | 57.24     | 78.33            | 36.00       | 15.65        |
 

@@ -44,6 +44,8 @@ for summary_file in Path("docs/results").rglob("summary.json"):
         task_scores: list[float] = []
         for dataset_name, metric_dict in task_results.items():
             metric_name, score = next(iter(metric_dict.items()))
+            if dataset_name not in dataset_name_aliases:
+                continue
             dataset_name = dataset_name_aliases.get(dataset_name, dataset_name)
             # メトリック名を表示せず、データセット名のみを使用
             task_results_formatted[dataset_name] = score
