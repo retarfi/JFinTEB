@@ -86,6 +86,19 @@ torchrun \
 
 Note that the batch size here is global batch size (`per_device_batch_size` × `n_gpu`).
 
+## Docker
+
+A Dockerfile is provided for GPU environments. It uses CUDA 12.4 with Python 3.10 on Ubuntu 22.04.
+
+```bash
+docker build -t jfinteb .
+docker run --gpus all -v $(pwd)/output:/app/output jfinteb \
+  poetry run python -m jfinteb \
+  --embedder SentenceBertEmbedder \
+  --embedder.model_name_or_path "<model_name_or_path>" \
+  --save_dir "output/<model_name_or_path>"
+```
+
 ## Acknowledgements
 
 This project is based on [JMTEB (Japanese Massive Text Embedding Benchmark)](https://github.com/sbintuitions/JMTEB) by [SB Intuitions](https://github.com/sbintuitions). We gratefully acknowledge their foundational work in Japanese text embedding evaluation.
