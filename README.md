@@ -115,3 +115,14 @@ If you use JMTEB or this benchmark, please cite the original dataset:
     year = {2024},
 }
 ```
+
+## Citation
+
+```
+@misc{suzuki2026jfinteb,
+    title={{JFinTEB: Japanese Financial Text Embedding Benchmark}},
+    author={Masahiro Suzuki and Hiroki Sakaji},
+    year={2026},
+    url={https://arxiv.org/abs/2604.15882}
+}
+```
