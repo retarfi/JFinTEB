@@ -105,24 +105,31 @@ This project is based on [JMTEB (Japanese Massive Text Embedding Benchmark)](htt
 
 The original JMTEB project is licensed under [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/), and this project follows the same license terms.
 
-If you use JMTEB or this benchmark, please cite the original dataset:
+If you use JMTEB or this benchmark, please cite the original benchmark:
 
 ```
-@misc{jmteb,
-    author = {Li, Shengzhe and Ohagi, Masaya and Ri, Ryokan},
-    title = {{J}{M}{T}{E}{B}: {J}apanese {M}assive {T}ext {E}mbedding {B}enchmark},
-    howpublished = {\url{https://huggingface.co/datasets/sbintuitions/JMTEB}},
-    year = {2024},
+@inproceedings{li2026jmteb,
+    author = {Li, Shengzhe and Ohagi, Masaya and Ri, Ryokan and Fukuchi, Akihiko and Shibata, Tomohide and Kawahara, Daisuke},
+    title = {{JMTEB and JMTEB-lite: Japanese Massive Text Embedding Benchmark and Its Lightweight Version}},
+    booktitle = "Proceedings of the Fifteenth Language Resources and Evaluation Conference",
+    month = may,
+    year = "2026",
+    address = "Palma, Mallorca, Spain",
+    publisher = "European Language Resources Association",
+    note = "to appear",
 }
 ```
 
 ## Citation
 
 ```
-@misc{suzuki2026jfinteb,
+@inproceedings{suzuki2026jfinteb,
     title={{JFinTEB: Japanese Financial Text Embedding Benchmark}},
     author={Masahiro Suzuki and Hiroki Sakaji},
     year={2026},
-    url={https://arxiv.org/abs/2604.15882}
+    booktitle = {Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+    pages = {3413–3417},
+    url = {https://doi.org/10.1145/3805712.3808595},
+    doi = {10.1145/3805712.3808595}
 }
 ```
